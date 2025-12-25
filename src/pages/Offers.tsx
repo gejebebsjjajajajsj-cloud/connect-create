@@ -5,16 +5,6 @@ const Offers = () => {
   return (
     <main className="flex bg-background px-4 py-4 sm:px-5 sm:py-5">
       <section className="mx-auto flex w-full max-w-3xl flex-col gap-4">
-        <header className="text-center">
-          <h1 className="text-balance text-2xl font-semibold tracking-tight sm:text-3xl">
-            Escolha seu pacote e chame no WhatsApp
-          </h1>
-          <p className="mt-1 text-xs text-muted-foreground sm:text-sm">
-            Tenho opções de <strong className="font-semibold text-foreground">chamada de vídeo</strong> e
-            <strong className="font-semibold text-foreground"> packs exclusivos de fotos e vídeos</strong>.
-            Escolha o que combina mais com você e me chama no WhatsApp.
-          </p>
-        </header>
 
         <section className="grid gap-4 sm:gap-5 md:grid-cols-2">
           <article className="group relative flex h-full flex-col justify-between overflow-hidden rounded-2xl border border-border/80 bg-card/95 p-4 shadow-md shadow-primary/10 transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/30 hover-scale animate-fade-in">

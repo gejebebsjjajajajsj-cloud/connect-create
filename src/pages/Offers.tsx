@@ -3,8 +3,8 @@ import { WHATSAPP_PACKS, WHATSAPP_VIDEO_CALL } from "@/config/whatsapp";
 
 const Offers = () => {
   return (
-    <main className="flex min-h-screen items-center bg-background px-4 sm:px-6 lg:px-8">
-      <section className="mx-auto flex w-full max-w-5xl flex-col gap-8 py-10 sm:py-12 lg:py-16">
+    <main className="flex bg-background px-4 sm:px-6 lg:px-8 py-6">
+      <section className="mx-auto flex w-full max-w-4xl flex-col gap-6 py-6 sm:py-8">
         <header className="text-center">
           <h1 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
             Escolha seu pacote e chame no WhatsApp
